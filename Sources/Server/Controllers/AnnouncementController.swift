@@ -35,7 +35,7 @@ struct AnnouncementController<DecoderType>: RouteCollection where DecoderType: C
 			.first()
 		guard let announcement else {
 			throw Abort(.notFound)
-		}
+        } //testing
 		return announcement
 	}
 	
